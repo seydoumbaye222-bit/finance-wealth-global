@@ -5,3 +5,4 @@ article{margin-bottom:30px;padding-bottom:20px;border-bottom:1px solid #eee;}
 img{max-width:100%;border-radius:8px;}
 a{color:#0a5a46;}
 footer{margin-top:40px;padding-top:10px;border-top:1px solid #eee;color:#888;font-size:0.9em;}
+.site-logo{height:60px;width:auto;background:#fff;border-radius:12px;padding:6px;box-shadow:0 1px 4px rgba(0,0,0,0.1);margin-bottom:12px;display:block;}
