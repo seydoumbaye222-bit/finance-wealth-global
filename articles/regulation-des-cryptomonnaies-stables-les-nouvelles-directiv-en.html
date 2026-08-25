@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regulation of stable cryptocurrencies: the EU's new guidelines and their market impacts</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Regulation of stable cryptocurrencies: the EU's new guidelines and their market impacts</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+
+  <main>
+    <article>
+      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600" alt="Actualité">
+      <p>The European Union has just adopted an ambitious regulatory framework for so‑called “stable” cryptocurrencies, aimed at strengthening investor protection, ensuring financial stability, and creating a transparent, competitive environment for sector players.</p>
+
+      <h2>The MiCA framework: a comprehensive legislative response</h2>
+      <p>The MiCA (Markets in Crypto‑Assets) regulation is the cornerstone of European digital‑asset regulation. Effective from January 2024, it requires stablecoin issuers to comply with licensing, governance, and supervisory requirements, thereby aligning the treatment of crypto‑assets with the rules applicable to traditional financial services.</p>
+
+      <h2>Transparency and reserve obligations</h2>
+      <p>The new guidelines require stablecoins to be backed by clearly identified liquidity reserves, regularly audited and disclosed transparently. Issuers must also provide detailed information on stabilization mechanisms, associated risks, and redemption procedures, to ensure user confidence and supervisory oversight.</p>
+
+      <h2>Implications for stablecoin issuers</h2>
+      <p>Capital, reporting and governance requirements increase compliance costs, prompting some under‑capitalised players to exit the market or merge. Conversely, large financial institutions see these rules as an opportunity to legitimize their stablecoin offerings, thereby strengthening competition between traditional players and crypto startups.</p>
+
+      <h2>Market reactions and economic outlook</h2>
+      <p>Markets responded quickly: compliant stablecoins saw their transaction volume rise, while non‑compliant tokens experienced disinvestment. In the medium term, regulation should reduce volatility associated with stablecoins, encourage institutional adoption and pave the way for future innovations such as central bank digital currencies (CBDCs).</p>
+
+      <h2>Conclusion</h2>
+      <p>In summary, the EU’s new guidelines mark a decisive turning point for stablecoins, imposing rigor and transparency while opening the door to deeper integration into the traditional financial system, which should stabilise the market and stimulate healthy competition.</p>
+
+    <p><a href="regulation-des-cryptomonnaies-stables-les-nouvelles-directiv.html">🇫🇷 Version française</a></p>
+</article>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Finance & Wealth Global</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
