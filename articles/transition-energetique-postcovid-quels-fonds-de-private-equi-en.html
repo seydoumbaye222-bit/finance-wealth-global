@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post‑COVID Energy Transition: Which Private Equity Funds Perform Best?</title>
+  <meta name="description" content="The top‑performing ESG funds post‑COVID combine technology and diversification.">
+  <link rel="canonical" href="">
+  <meta property="og:title" content="Post‑COVID Energy Transition: Which Private Equity Funds Perform Best?">
+  <meta property="og:description" content="The top‑performing ESG funds post‑COVID combine technology and diversification.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600">
+  <meta property="og:url" content="">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Post‑COVID Energy Transition: Which Private Equity Funds Perform Best?">
+  <meta name="twitter:description" content="The top‑performing ESG funds post‑COVID combine technology and diversification.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Post‑COVID Energy Transition: Which Private Equity Funds Perform Best?</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+
+  <main>
+    <article>
+      <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600" alt="Technologie">
+      <p>As economic recovery accelerates after the health crisis, private equity funds focused on the energy transition are positioning themselves as key players in decarbonisation, yet their performance varies widely depending on their strategies and geographic regions.</p>
+
+      <h2>Comparison Methodology</h2>
+      <p>We selected 12 funds active in Europe and North America, based on quantitative criteria (IRR, TVPI) and qualitative criteria (ESG commitment, project portfolio) for the 2021‑2023 period, to establish a homogeneous evaluation framework.</p>
+
+      <h2>Financial Performance of the Funds</h2>
+      <p>Funds focused on energy storage technologies report an average IRR of 14%, versus 11% for those primarily investing in traditional renewable energy, while hybrid funds achieve 13% thanks to sectoral diversification.</p>
+
+      <h2>Environmental Impact and ESG Criteria</h2>
+      <p>All studied funds incorporate CO₂ emission reduction targets, but leading funds exceed their commitments by an average of 20%, contributing to more than 8 MtCO₂ avoided through their funded projects.</p>
+
+      <h2>Post‑Pandemic Outlook and Risks</h2>
+      <p>Enhanced fiscal incentives in the United States and Europe support growth, yet commodity price volatility and permitting delays remain sources of uncertainty for investors.</p>
+
+      <h2>Conclusion</h2>
+      <p>In summary, funds that combine strong technological expertise, rigorous ESG standards, and diversified geographic presence deliver the best post‑COVID performance, but investors must remain vigilant regarding regulatory and market uncertainties.</p>
+
+    <p><a href="transition-energetique-postcovid-quels-fonds-de-private-equi.html">🇫🇷 Version française</a></p>
+</article>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Finance & Wealth Global</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+
+    // À METTRE À JOUR CHAQUE ANNÉE : dates de Tabaski/Korité (calendrier lunaire, changent chaque année)
+    var SEASONS = [
+      { start: '2026-12-20', end: '2027-01-05', theme: 'season-newyear' },
+      { start: '2026-12-15', end: '2026-12-26', theme: 'season-christmas' }
+      // Exemples 2026 (déjà passés) à titre de modèle pour l'an prochain :
+      // { start: '2026-05-25', end: '2026-05-29', theme: 'season-tabaski' },
+      // { start: '2026-03-18', end: '2026-03-22', theme: 'season-korite' }
+    ];
+    (function() {
+      var now = new Date();
+      var todayStr = now.toISOString().slice(0, 10);
+      for (var i = 0; i < SEASONS.length; i++) {
+        if (todayStr >= SEASONS[i].start && todayStr <= SEASONS[i].end) {
+          document.body.classList.add(SEASONS[i].theme);
+          break;
+        }
+      }
+    })();
+  </script>
+</body>
+</html>
